@@ -20,14 +20,13 @@ Having designed the wireframes in Figma, this was the first time I had ever tran
 
 Branding designed by yours truly, includes logo, brand elements, and color scheme.
 
-Link to branding guidelines
+[Link to branding guidelines](https://drive.google.com/file/d/1sP5NSDCUxggLhJrq1RUZMwqr6dn3RMqB/view?usp=sharing)
 
 ## wireframes
 
 Wireframes for the website are also done by yours truly, designed alongside the branding.
 
-Link to wireframes
-https://www.figma.com/design/mq9V8yc9iRuG4LCOSZ1OgR/mperry_228_project3_wireframes?node-id=1-2&t=3PSUvOL1e1TFUpKS-1 
+[Link to wireframes](https://www.figma.com/design/mq9V8yc9iRuG4LCOSZ1OgR/mperry_228_project3_wireframes?node-id=1-2&t=3PSUvOL1e1TFUpKS-1)
 
 # Acknowledgement
 
