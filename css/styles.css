@@ -186,6 +186,8 @@ footer .right {
 
 .tile {
     width:50vw;
+    object-fit: cover;
+    object-position: 25% 25%;
 }
 
 
