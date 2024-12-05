@@ -19,6 +19,10 @@ a {
     color: white;
 }
 
+a:hover {
+    color: yellow;
+}
+
 h1 {
     font-family: "Chennai", Arial, Helvetica, sans-serif;
     font-size: 4em;
@@ -39,10 +43,20 @@ p {
     font-size: 1.5em;
 }
 
+footer p {
+    font-size: 1em;
+}
+
 
 .star {
     height: 5em;
 }
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
 
 
 
@@ -84,6 +98,9 @@ ul li {
     justify-content: space-around;
 }
 
+#active {
+    color: yellow;
+}
 
 
 
@@ -112,13 +129,9 @@ footer .right {
 
 /* HOME */
 
-#hidden {
-    /* display: none; */
-    visibility: hidden;
-}
 
 #heroshot {
-    background-image: url(../img/bird.png);
+    background-image: url(../img/carnival.jpg);
     background-color: rgb(46,49,146);
     height: 100vh;
     width: 100%;
@@ -152,9 +165,15 @@ footer .right {
 
 .home h1{
     font-size: 5em;
+    position: absolute;
+    top: 10px;
+    left: 15%;
 }
 .home h2 {
     font-size: 3em;
+    position: absolute;
+    top: 290px;
+    left: 5%;
 }
 
 .wrapper {
@@ -185,10 +204,48 @@ footer .right {
 }
 
 .tile {
-    width:50vw;
+    width:50%;
     object-fit: cover;
     object-position: 25% 25%;
+    overflow:clip;
 }
+
+
+
+
+
+
+ /* EVENTS */
+
+.times {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.times .star {
+    position: absolute;
+    left: -15%;
+    top: -15px;
+}
+
+.text p {
+    padding-bottom: 20px
+}
+
+
+
+
+
+ /* MERCH  */
+.title h2 {
+    padding-right:15%;
+}
+
+
+
+
+
 
 
 
