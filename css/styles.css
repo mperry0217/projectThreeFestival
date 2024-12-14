@@ -66,9 +66,11 @@ img {
 
 
 nav {
-    position: fixed;
+    position: sticky;
     background-color: rgb(236, 0, 140);
     width: 100%;
+
+    height: auto;
 
     display: flex;
     flex-direction: row;
@@ -100,6 +102,7 @@ ul li {
 
 #active {
     color: yellow;
+    text-decoration: underline;
 }
 
 
@@ -111,6 +114,9 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+
+    height: 15vh;
 
     padding: 2%;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -186,6 +192,7 @@ footer .right {
     flex-direction: row;
     align-items: center;
     padding-bottom: 10px;
+    padding-left: 2%;
 
     /* background-color: black; */
 }
@@ -233,6 +240,10 @@ footer .right {
     padding-bottom: 20px
 }
 
+#reverse {
+    flex-direction: row;
+}
+
 
 
 
@@ -252,4 +263,47 @@ footer .right {
 
 
 
-/* MEDIA QUERIES  */
+/* MEDIA QUERIES FOR EVENT & MERCH PAGE */
+
+@media (max-width: 600px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    #reverse {
+        flex-direction: column-reverse;
+    }
+
+    .tile {
+        width: 100%;
+    }
+
+    footer {
+        padding: 5%;
+    }
+
+    .title {
+        padding-left: 5%;
+    }
+
+    .text {
+        padding: 15%;
+    }
+
+    .times .star {
+        left: -25%;
+    }
+    
+    .logo {
+        width: 100%;
+    }
+
+    ul {
+        width:100%;
+        justify-content: space-between;
+    }
+
+    ul li {
+        justify-content: space-between;
+    }
+}
